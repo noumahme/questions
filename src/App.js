@@ -21,11 +21,12 @@ function App() {
     //   </header>
     // </div>
     <>
-      <h1>Questions</h1>
       <div>
+        <h3>Question 1</h3>
         <Question1 />
       </div>
       <div>
+        <h3>Question 2</h3>
         <Question2 />
       </div>
     </>
