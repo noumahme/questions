@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Question1 from "./Components/question1";
-
+import Question2 from "./Components/question2";
 function App() {
   return (
     // <div className="App">
@@ -22,7 +22,12 @@ function App() {
     // </div>
     <>
       <h1>Questions</h1>
-      <Question1 />
+      <div>
+        <Question1 />
+      </div>
+      <div>
+        <Question2 />
+      </div>
     </>
   );
 }
